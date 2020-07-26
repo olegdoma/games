@@ -19,8 +19,8 @@ public class Main {
     public static void game()
     {
         int hiddenNumber = rand.nextInt(3);
-        System.out.printf("Я загадал число %d\n", hiddenNumber);
-        for (int i = 0; i < 3; i++) {
+//        System.out.printf("Я загадал число %d\n", hiddenNumber);
+            for (int i = 0; i < 3; i++) {
             System.out.printf("Введите число \n");
             int num = sc.nextInt();
             if (num == hiddenNumber)
